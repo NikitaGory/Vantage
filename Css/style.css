@@ -192,7 +192,7 @@ header {
     width: 1140px;
     background:#FFF;
     display: flex;
-    gap: 37px;
+    gap: 47px;
     background-color: #EBEBEB;
 }
 
@@ -214,6 +214,7 @@ header {
 }
 
 .About-us{
+    height: 926px;
     padding-top: 135px ;
     background-color: #EBEBEB;
 }
@@ -248,13 +249,11 @@ header {
 .About-us-title {
     color: #141414;
     font-family: Teko;
-    font-size: 53px;
+    font-size: 67px;
     font-style: normal;
     font-weight: 400;
-    line-height: 52.955px;
+    line-height: 67.031px; /* 100.046% */
     text-transform: capitalize;
-    margin: 0;
-    margin-bottom: 12px;
 }
 
 .About-us-text1 {
@@ -346,8 +345,62 @@ list-style-type: none;
 }
 
 .Achievements-dot {
-    width: 9px;
+    width: 15px;
     height: 9px;
     background: #99823D;
     list-style-type: none;
+}
+
+.rooms {
+   height: 1000px; 
+   display: flex;
+   justify-content: center;
+}
+
+.rooms-cards {
+    width: 1294px;
+    position: relative;
+    display: flex;
+    bottom: 464px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 30;
+}
+
+.room-card {
+    display: flex;
+    flex-direction: column;
+    height: 398px;
+}
+
+.top-text {
+    width: 103px;
+    height: 34px;
+    background-color: #141414;
+}
+
+.top-text-text {
+    margin: 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.32px; /* 148.364% */
+    letter-spacing: 2.72px;
+    text-transform: uppercase;
+}
+
+.lines {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    z-index: 40;
+}
+
+.line {
+    list-style-type: none;
+    height: 120px;
+    background-color: #FFF;
 }
