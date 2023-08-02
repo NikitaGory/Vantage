@@ -136,6 +136,7 @@ header {
 }
 
 .Vantage-studio-btns {
+    margin-top: 15px;
     display: flex;
     padding: 0;
     gap: 17px;
@@ -186,6 +187,7 @@ header {
 
 .Vantage-studio-links {
     padding: 0;
+    padding-left: 10px;
     margin: 0;
     position: absolute;
     bottom: 0;
@@ -332,7 +334,7 @@ list-style-type: none;
     margin: 0;     
 }
 
-.Achievements-title span {
+.Achievements-item span {
     color: #99823D;
     font-family: Open Sans;
     font-size: 12px;
